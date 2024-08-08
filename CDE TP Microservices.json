@@ -1,0 +1,100 @@
+{
+	"Name": "CDE TP Microservices",
+	"Total Cost": {
+		"monthly": "162.89",
+		"upfront": "429.00",
+		"12 months": "2383.68"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "8/7/2024",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=dad779dee7beccb2afc17a674712c3ab8d8f003b"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "AWS CodePipeline",
+				"Description": "update-x-microservice",
+				"Region": "US East (N. Virginia)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "1.00",
+					"upfront": "0.00",
+					"12 months": "12.00"
+				},
+				"Properties": {
+					"Number of active pipelines used per account per month": "2"
+				}
+			},
+			{
+				"Service Name": "AWS Fargate",
+				"Description": "x-microservice",
+				"Region": "US East (N. Virginia)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "127.59",
+					"upfront": "0.00",
+					"12 months": "1531.08"
+				},
+				"Properties": {
+					"Operating system": "Linux",
+					"CPU Architecture": "x86",
+					"Average duration": "1 days",
+					"Number of tasks or pods": "6 per day",
+					"Amount of memory allocated": "2 GB",
+					"Amount of ephemeral storage allocated for Amazon ECS": "20 GB"
+				}
+			},
+			{
+				"Service Name": "Application Load Balancer",
+				"Description": "microservicesLB",
+				"Region": "US East (N. Virginia)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "16.45",
+					"upfront": "0.00",
+					"12 months": "197.40"
+				},
+				"Properties": {
+					"Number of Application Load Balancers": "1"
+				}
+			},
+			{
+				"Service Name": "Amazon RDS for MySQL",
+				"Description": "supplierdb",
+				"Region": "US East (N. Virginia)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "14.20",
+					"upfront": "429.00",
+					"12 months": "599.39"
+				},
+				"Properties": {
+					"Storage amount": "20 GB",
+					"Storage for each RDS instance": "General Purpose SSD (gp2)",
+					"Nodes": "1",
+					"Instance type": "db.t3.medium",
+					"Utilization (On-Demand only)": "100 %Utilized/Month",
+					"Deployment option": "Single-AZ",
+					"Pricing strategy": "Reserved 3yr Partial Upfront"
+				}
+			},
+			{
+				"Service Name": "Public IPv4 Address",
+				"Description": "LabVPC",
+				"Region": "US East (N. Virginia)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "3.65",
+					"upfront": "0.00",
+					"12 months": "43.80"
+				},
+				"Properties": {
+					"Number of In-use public IPv4 addresses": "1"
+				}
+			}
+		]
+	}
+}
